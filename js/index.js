@@ -4,7 +4,7 @@ import randomIntegerFromInterval from './random-integer.js'
 const refs = {
     startBtn: document.querySelector('[data-action="start"]'),
     stopBtn: document.querySelector('[data-action="stop"]'),
-    body: document.querySelector('body'),
+    bodyRef: document.querySelector('body'),
 }
 
 let changeColorId;
